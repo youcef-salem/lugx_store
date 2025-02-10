@@ -61,6 +61,12 @@ height: 30px;
         left: 230px ;
         
     }
+    .landing-page-search button:hover{
+        background-color: #c1828a;
+    }
+     
+      
+  
     .landing-page-image img{
         border-radius: 30px;
         width: 250px;
@@ -127,5 +133,48 @@ width: 50px;
     display: flex;
     gap: 12px;
   }
+  .list-most-cards{
+    display: flex;
+    gap: 12px;
+  }
+  .ms-card{
+    width: 300px;
+    background-color: white;
+    border-radius: 25px;
+    
+  }
+  .ms-card img{
+    width: 300px;
+    border-radius: 25px 25px ;
+    height: 300px;
+
+  }
+  .ms-card-body button{
+    background-color: #f74e64;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 15px;
+
+  }
+  .ms-card-body button:hover{
+    background-color: #c1828a;
+  }
+  .ms-card-body{
+  
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 25px;
+  }
+  .ms-card-body span{
+    color: #4b483f;
+    font-weight: bold;
 
 
+  }
+
+
+  
