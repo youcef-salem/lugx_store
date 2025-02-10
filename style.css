@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: "Roboto", serif;
+  }
+  .header {
+    background-color: #0171f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+  }
+  .logo {
+    width: 100px;
+  }
+  .header-link a {
+    color: rgb(255, 255, 255);
+    padding: 5px 30px;
+    text-decoration: none;
+    border-radius: 15px;
+  }
+  .header-link a:hover {
+    background-color: #5b6acf;
+  }
+  .header-boton {
+    background-color: #f74e64;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+  }
+  .header-boton:hover {
+    background-color: #c1828a;
+  }
+  .landing-page{
+background-color: #0171f9;
+display: flex;
+justify-content: space-between;
+padding: 25px 50px;
+align-items: center;
+color: white;
+border-radius: 0 0 50px 50px;
+
+  }
+  .landing-page-search input{
+    padding: 0px 10px;
+    border-radius: 50px;
+    border: none;
+outline: none;
+height: 30px;
+
+
+  }
+    .landing-page-search button{
+        background-color: #f74e64;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        padding: 10px 15px;
+        position: absolute;
+        height: 30px;
+        left: 230px ;
+        
+    }
+    .landing-page-image img{
+        border-radius: 30px;
+        width: 250px;
+    }
+    .landing-page-left{
+        padding: 30px;
+        width: 400px;
+    }
+    .trending-games{
+        
+        padding: 10px 50px;
+    }
+    .trending-games span{
+        
+        color: #f74e64;
+        font-weight: bold;
+    }
+    .trending-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .trending-header button{
+        background-color: #f74e64;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    
+    }
+    .trending-header button:hover{
+        background-color: #c1828a;
+    }
+    .trending-header h1{
+       margin-top: 0px ;
+        
+    }
+    .card{
+      width:300px;
+      background-color: #EEEEEE;
+      border-radius: 25px;
+    }
+    .card img{
+        width: 300px;
+        border-radius: 25px 25px 0 0;
+     height: 300px;
+    }
+    .card-body{
+
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 25px;
+        align-items: center;
+        
+        
+    }
+    .card-body img{
+width: 50px;
+     height: 50px;
+      
+  }
+  .trandig-cards{
+    display: flex;
+    gap: 12px;
+  }
+
+
