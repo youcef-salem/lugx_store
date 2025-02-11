@@ -172,9 +172,65 @@ width: 50px;
   .ms-card-body span{
     color: #4b483f;
     font-weight: bold;
-
+font: bold ;
 
   }
+  .categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+  }
+  .categories span{
+    color: #f74e64;
+    font-weight: bold;
+  }
+.categories-cards{
+  display: flex;
+  gap: 12px;
+}
+.categories-card{
+  width: 250px;
+  background-color: #0171f9;
+  border-radius: 35px;
+  height: 250px;
+}
+.categories-card img{
+  width: 250px;
+  border-radius: 25px 25px ;
+  height: 250px;
+  
+}
+.categories-card h2{
+  color: white;
+  padding: 5px 25px;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
 
 
   
+
+
+
+
+
+
+  
+
+  
+
+  
+  
+ 
+
+
+
+  
+
+
+
